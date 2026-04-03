@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+
+tensorflow
+keras
+
+pyqt5
+
+pyserial
+
+scipy

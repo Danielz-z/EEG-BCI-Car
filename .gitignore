@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Models
+*.h5
+*.keras
+*.pt
+
+# Data
+*.xlsx
+*.csv
+data/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keil / STM32
+Objects/
+Listings/
+DebugConfig/
+*.uvoptx
+*.uvguix*
