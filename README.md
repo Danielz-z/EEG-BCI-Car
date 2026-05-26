@@ -198,6 +198,8 @@ This project has been recognized in both international and national competitions
 
 - 🥉 Third Prize, National Transportation Technology Competition, 2025
 
+<img width="1702" height="1276" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
+
 ---
 ## Supported Commands
 
