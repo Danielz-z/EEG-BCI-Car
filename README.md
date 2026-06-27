@@ -198,6 +198,27 @@ This project has been recognized in both international and national competitions
 
 - 🥉 Third Prize, National Transportation Technology Competition, 2025
 
+### 13th CPWC · FORUM8 Design Festival 2025, Tokyo
+
+<table>
+  <tr>
+    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" /></td>
+    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Acceptance speech</sub></td>
+    <td align="center"><sub>Project presentation</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" /></td>
+    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Real-time system demonstration</sub></td>
+    <td align="center"><sub>Award reception</sub></td>
+  </tr>
+</table>
+
 <img width="1702" height="1276" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
 
 ---
