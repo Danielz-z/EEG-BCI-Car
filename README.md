@@ -4,6 +4,24 @@ An EEG-based real-time brain-computer interface system for emergency vehicle tak
 
 ---
 
+## Overview
+
+This project explores how electroencephalography (EEG) signals can be translated into actionable driving commands for emergency takeover scenarios. The system is designed as an end-to-end pipeline that starts from EEG signal processing and feature extraction, proceeds through deep learning-based classification, and finally drives an embedded vehicle platform through Bluetooth communication.
+
+The goal is to enable rapid and reliable recognition of driver emergency intentions, including:
+- deceleration
+- left lane change
+- right lane change
+- invalid command rejection
+
+This repository contains:
+- **model training** code for EEG classification
+- **offline inference** code for prediction without hardware
+- **real-time inference and GUI** for live deployment
+- **STM32-based vehicle control** code for the model car
+
+---
+
 ## Highlights & Achievements
 
 ### Awards
@@ -14,6 +32,25 @@ This project has been recognized in both international and national competitions
   Forum8 Design Festival, Japan, 2025
 
 - 🥉 Third Prize, National Transportation Technology Competition, 2025
+
+### Performance Summary
+
+| Class            | Accuracy | Precision | Recall | Specificity |
+|------------------|---------|----------|--------|------------|
+| Decelerate       | 0.9561 | 0.8387 | 0.8261 | 0.9316 |
+| LaneChange Left  | 0.8926 | 0.8339 | 0.8383 | 0.9307 |
+| LaneChange Right | 0.8821 | 0.8358 | 0.8497 | 0.9274 |
+| Invalid Command  | 0.9056 | 0.8904 | 0.8722 | 0.9877 |
+
+The model demonstrates stable multi-class classification performance, 
+with strong robustness in rejecting invalid commands.
+
+### Core Highlights
+
+- Real-time EEG-based intention recognition system
+- End-to-end pipeline from signal to hardware control
+- Integrated deep learning + embedded system deployment
+- Award-winning project (CPWC, National Competition)
 
 ### Competition Gallery
 
@@ -36,44 +73,7 @@ This project has been recognized in both international and national competitions
   </tr>
 </table>
 
-<img width="1702" height="1276" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
-
-### Performance Summary
-
-| Class            | Accuracy | Precision | Recall | Specificity |
-|------------------|---------|----------|--------|------------|
-| Decelerate       | 0.9561 | 0.8387 | 0.8261 | 0.9316 |
-| LaneChange Left  | 0.8926 | 0.8339 | 0.8383 | 0.9307 |
-| LaneChange Right | 0.8821 | 0.8358 | 0.8497 | 0.9274 |
-| Invalid Command  | 0.9056 | 0.8904 | 0.8722 | 0.9877 |
-
-The model demonstrates stable multi-class classification performance, 
-with strong robustness in rejecting invalid commands.
-
-### Core Highlights
-
-- Real-time EEG-based intention recognition system
-- End-to-end pipeline from signal to hardware control
-- Integrated deep learning + embedded system deployment
-- Award-winning project (CPWC, National Competition)
-
----
-
-## Overview
-
-This project explores how electroencephalography (EEG) signals can be translated into actionable driving commands for emergency takeover scenarios. The system is designed as an end-to-end pipeline that starts from EEG signal processing and feature extraction, proceeds through deep learning-based classification, and finally drives an embedded vehicle platform through Bluetooth communication.
-
-The goal is to enable rapid and reliable recognition of driver emergency intentions, including:
-- deceleration
-- left lane change
-- right lane change
-- invalid command rejection
-
-This repository contains:
-- **model training** code for EEG classification
-- **offline inference** code for prediction without hardware
-- **real-time inference and GUI** for live deployment
-- **STM32-based vehicle control** code for the model car
+<img style="max-width:100%;" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
 
 ---
 
