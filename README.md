@@ -3,7 +3,54 @@
 An EEG-based real-time brain-computer interface system for emergency vehicle takeover, integrating model training, offline inference, embedded hardware control, and GUI deployment.
 
 ---
-## Highlights
+
+## Highlights & Achievements
+
+### Awards
+
+This project has been recognized in both international and national competitions:
+
+- 🥇 World Cup Award, 13th Cloud Programming Grand Prix World Cup (CPWC),  
+  Forum8 Design Festival, Japan, 2025
+
+- 🥉 Third Prize, National Transportation Technology Competition, 2025
+
+### Competition Gallery
+
+<table>
+  <tr>
+    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" /></td>
+    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Acceptance speech</sub></td>
+    <td align="center"><sub>Project presentation</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" /></td>
+    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Real-time system demonstration</sub></td>
+    <td align="center"><sub>Award reception</sub></td>
+  </tr>
+</table>
+
+<img width="1702" height="1276" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
+
+### Performance Summary
+
+| Class            | Accuracy | Precision | Recall | Specificity |
+|------------------|---------|----------|--------|------------|
+| Decelerate       | 0.9561 | 0.8387 | 0.8261 | 0.9316 |
+| LaneChange Left  | 0.8926 | 0.8339 | 0.8383 | 0.9307 |
+| LaneChange Right | 0.8821 | 0.8358 | 0.8497 | 0.9274 |
+| Invalid Command  | 0.9056 | 0.8904 | 0.8722 | 0.9877 |
+
+The model demonstrates stable multi-class classification performance, 
+with strong robustness in rejecting invalid commands.
+
+### Core Highlights
 
 - Real-time EEG-based intention recognition system
 - End-to-end pipeline from signal to hardware control
@@ -11,6 +58,7 @@ An EEG-based real-time brain-computer interface system for emergency vehicle tak
 - Award-winning project (CPWC, National Competition)
 
 ---
+
 ## Overview
 
 This project explores how electroencephalography (EEG) signals can be translated into actionable driving commands for emergency takeover scenarios. The system is designed as an end-to-end pipeline that starts from EEG signal processing and feature extraction, proceeds through deep learning-based classification, and finally drives an embedded vehicle platform through Bluetooth communication.
@@ -174,54 +222,8 @@ A PyQt5-based interface is provided for deployment and demonstration, including:
 - EEG band power visualization
 - start / stop takeover control
 
-
----
-## Performance Summary
-
-| Class            | Accuracy | Precision | Recall | Specificity |
-|------------------|---------|----------|--------|------------|
-| Decelerate       | 0.9561 | 0.8387 | 0.8261 | 0.9316 |
-| LaneChange Left  | 0.8926 | 0.8339 | 0.8383 | 0.9307 |
-| LaneChange Right | 0.8821 | 0.8358 | 0.8497 | 0.9274 |
-| Invalid Command  | 0.9056 | 0.8904 | 0.8722 | 0.9877 |
-
-The model demonstrates stable multi-class classification performance, 
-with strong robustness in rejecting invalid commands.
-
 ---
 
-## Awards
-This project has been recognized in both international and national competitions:
-
-- 🥇 World Cup Award, 13th Cloud Programming Grand Prix World Cup (CPWC),  
-  Forum8 Design Festival, Japan, 2025
-
-- 🥉 Third Prize, National Transportation Technology Competition, 2025
-
-### 13th CPWC · FORUM8 Design Festival 2025, Tokyo
-
-<table>
-  <tr>
-    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" /></td>
-    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Acceptance speech</sub></td>
-    <td align="center"><sub>Project presentation</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" /></td>
-    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Real-time system demonstration</sub></td>
-    <td align="center"><sub>Award reception</sub></td>
-  </tr>
-</table>
-
-<img width="1702" height="1276" alt="262dca474d21f55c12c782a4ea4cd8a0" src="https://github.com/user-attachments/assets/f427c6b0-e630-4529-9296-0246da9b9f6d" />
-
----
 ## Supported Commands
 
 | Class | Meaning          |
@@ -266,6 +268,7 @@ The training module saves:
 - confusion matrix figures
 
 ---
+
 ## Offline Inference
 
 The inference/ module is used for prediction without GUI or hardware.
@@ -326,6 +329,7 @@ Its responsibilities include:
 This separation keeps hardware logic independent from the Python-side EEG inference pipeline.
 
 ---
+
 ## Input Data Specification
 
 The project expects EEG-related feature tables with a label column named:
@@ -361,6 +365,7 @@ pip install pyqt5 pyserial scipy matplotlib pandas tensorflow scikit-learn
 ```
 
 ---
+
 ## Recommended Usage Order
 
 For a clean reproduction workflow:
@@ -516,6 +521,7 @@ Usage:
 
 - The model combines EEG data and driving labels for training
 - CSV files are also used to simulate real-time input in the system
+
 ---
 
 ## Demo
@@ -545,5 +551,3 @@ This project is released under the MIT License.
 ## Contact
 
 For academic or project-related communication, please open an issue on this repository.
-
----
