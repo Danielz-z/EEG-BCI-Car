@@ -58,16 +58,16 @@ with strong robustness in rejecting invalid commands.
 
 <table>
   <tr>
-    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
-    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
+    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" /></td>
+    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Acceptance speech</sub></td>
     <td align="center"><sub>Project presentation</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
-    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
+    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" /></td>
+    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Real-time system demonstration</sub></td>
