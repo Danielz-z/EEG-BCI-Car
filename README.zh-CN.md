@@ -56,16 +56,16 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="在 FORUM8 Design Festival 上发表获奖感言" /></td>
-    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="在舞台上展示项目方法" /></td>
+    <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="在 FORUM8 Design Festival 上发表获奖感言" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
+    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="在舞台上展示项目方法" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
   </tr>
   <tr>
     <td align="center"><sub>获奖感言</sub></td>
     <td align="center"><sub>项目展示</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="在电影节主屏幕上展示实时 EEG-BCI 系统" /></td>
-    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="团队领取世界杯奖" /></td>
+    <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="在电影节主屏幕上展示实时 EEG-BCI 系统" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
+    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="团队领取世界杯奖" style="width:100%; aspect-ratio:1/1; object-fit:cover;" /></td>
   </tr>
   <tr>
     <td align="center"><sub>实时系统演示</sub></td>
