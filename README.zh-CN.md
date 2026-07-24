@@ -24,6 +24,14 @@
 
 ---
 
+## 演示
+
+实时 EEG 控制系统演示：
+
+![EEG 控制演示](./demo/videoexhibition.gif)
+
+---
+
 ## 亮点与成果
 
 ### 获奖情况
@@ -521,14 +529,6 @@ pip install pyqt5 pyserial scipy matplotlib pandas tensorflow scikit-learn
 
 - 模型结合 EEG 数据和驾驶标签进行训练
 - CSV 文件也用于模拟系统中的实时输入
-
----
-
-## 演示
-
-实时 EEG 控制系统演示：
-
-![EEG 控制演示](./demo/videoexhibition.gif)
 
 ---
 

@@ -24,6 +24,14 @@ This repository contains:
 
 ---
 
+## Demo
+
+A demonstration of the real-time EEG-based control system:
+
+![EEG Control Demo](./demo/videoexhibition.gif)
+
+---
+
 ## Highlights & Achievements
 
 ### Awards
@@ -523,14 +531,6 @@ Usage:
 
 - The model combines EEG data and driving labels for training
 - CSV files are also used to simulate real-time input in the system
-
----
-
-## Demo
-
-A demonstration of the real-time EEG-based control system:
-
-![EEG Control Demo](./demo/videoexhibition.gif)
 
 ---
 
