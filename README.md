@@ -1,5 +1,7 @@
 # EEG-BCI-Car
 
+English | [简体中文][zh-cn]
+
 An EEG-based real-time brain-computer interface system for emergency vehicle takeover, integrating model training, offline inference, embedded hardware control, and GUI deployment.
 
 ---
@@ -551,3 +553,5 @@ This project is released under the MIT License.
 ## Contact
 
 For academic or project-related communication, please open an issue on this repository.
+
+[zh-cn]: README.zh-CN.md
