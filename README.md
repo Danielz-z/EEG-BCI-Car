@@ -67,19 +67,27 @@ with strong robustness in rejecting invalid commands.
 <table>
   <tr>
     <td width="50%"><img src="pics/cpwc_acceptance_speech.jpg" alt="Acceptance speech at the FORUM8 Design Festival" /></td>
-    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
+    <td width="50%"><img src="pics/cpwc_trophy_certificate.jpg" alt="World Cup trophy and Grand Prix award certificate" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Acceptance speech</sub></td>
-    <td align="center"><sub>Project presentation</sub></td>
+    <td align="center"><sub>World Cup trophy &amp; certificate</sub></td>
   </tr>
   <tr>
+    <td width="50%"><img src="pics/cpwc_project_presentation.jpg" alt="Presenting the project methodology on stage" /></td>
     <td width="50%"><img src="pics/cpwc_realtime_demo.jpg" alt="Real-time EEG-BCI system demonstrated on the festival main screen" /></td>
-    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
   </tr>
   <tr>
+    <td align="center"><sub>Project presentation</sub></td>
     <td align="center"><sub>Real-time system demonstration</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="pics/cpwc_award_reception.jpg" alt="Team receiving the World Cup Award" /></td>
+    <td width="50%"></td>
+  </tr>
+  <tr>
     <td align="center"><sub>Award reception</sub></td>
+    <td align="center"></td>
   </tr>
 </table>
 
